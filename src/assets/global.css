@@ -1,0 +1,129 @@
+/* @import "../static/css/common.css" */
+html,
+.el-container,
+.el-aside,
+.el-menu {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+#app {
+  font-family: 'Microsoft YaHei', 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #2c3e50;
+  height: 100%;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+.content {
+  justify-content: space-between;
+  height: 100%;
+}
+.el-header {
+  padding: 0;
+}
+.el-aside {
+  width: 200px !important;
+  height: 100%;
+}
+.text-gray {
+  color: #949494;
+}
+.wrapper {
+  border-top: none;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.wrapper .page-title {
+  border-left: 4px solid #409EFF;
+  padding: 10px 15px;
+  background-color: #f6f8f8;
+  margin-top: 0;
+}
+.wrapper .container {
+  padding: 0 20px;
+}
+.wrapper .filter {
+  margin-bottom: 40px;
+}
+.wrapper .filter .filter-item {
+  justify-content: flex-start;
+  font-size: 1;
+  margin-bottom: 15px;
+}
+.wrapper .filter .filter-item > div:first-child {
+  width: 90px;
+}
+.wrapper .filter .filter-item .filter-item-option {
+  margin-left: 10px;
+}
+.wrapper .filter .filter-item .filter-item-option span {
+  margin-right: 15px;
+  padding: 4px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.wrapper .filter .filter-item .filter-item-option span.active {
+  background-color: #409EFF;
+  color: #fff;
+}
+.wrapper .filter .filter-item .filter-item-option .el-input__suffix,
+.wrapper .filter .filter-item .filter-item-option .el-input__suffix-inner {
+  margin-right: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+.wrapper .filter .filter-item .filter-item-option .line {
+  margin-right: 0;
+}
+.wrapper .el-pagination {
+  margin-top: 30px;
+  text-align: center;
+}
+.wrapper .action-bar {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.wrapper .action-bar .search-box {
+  width: 60%;
+  justify-content: flex-end;
+}
+.wrapper .action-bar .el-button {
+  margin-left: 15px;
+}
+.wrapper .detail-btn-box {
+  margin-bottom: 20px;
+}
+.wrapper .detail-btn-box .backBtn {
+  margin-right: 10px;
+}
+.wrapper .detail-item {
+  padding: 10px;
+  display: flex;
+}
+.wrapper .detail-item span {
+  color: #303133;
+}
+.wrapper .detail-item .bm-view {
+  width: 80%;
+  height: 400px;
+  margin-bottom: 50px;
+}
+.wrapper .detail-item > :first-child {
+  color: #909399;
+}
+#popup_close {
+  display: none !important;
+}
+.BMap_stdMpCtrl {
+  top: 100px !important;
+}
